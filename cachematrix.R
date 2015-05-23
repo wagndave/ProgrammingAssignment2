@@ -7,8 +7,6 @@
 ## has already been calculated, then cacheSolve retrieves the inverse from the cache.
 
 
-
-
 ## Write a short comment describing this function
 ## This function stores 4 functions: set, get, setinv and getinv.
 ## 'get' is a function that returns the matrix that is stored in the main function makeCacheMatrix
@@ -30,7 +28,6 @@ makeCacheMatrix <- function(x = matrix()) {
 	getinv <- function() inv
 	list(set = set, get = get, setinv = setinv, getinv = getinv)
 }
-
 
 ## The first thing cacheSolve does is verifies the value 'inv' stored previously with getinv
 ## if 'inv' is not NULL, it simply returns a message and the value 'inv'.
